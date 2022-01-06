@@ -38,7 +38,7 @@ export const ClientLogos = ({ clients }) => {
                                 className="col-3 justify-content-center d-flex align-center">
                                 <div className="client-logos__logo">
                                     <img className="logo img-fluid"
-                                        src={client.logoSource}
+                                        src={process.env.PUBLIC_URL + client.logoSource}
                                         alt="" />
                                 </div>
                             </div>
