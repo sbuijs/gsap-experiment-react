@@ -1,0 +1,113 @@
+{
+  "header": 
+    {
+      "titleFirstLine": "This is a very",
+      "titleSecondLine": "nice title for a page",
+      "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in semper massa, vitae condimentum augue. Sed ac auctor quam, id facilisis ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. ",
+      "backgroundImage": "https://picsum.photos/id/1021/1505/796"
+    },
+  
+  "parallaxOne": 
+    {
+      "backgroundImage": "/assets/images/parallax-element/background.png",
+      "backgroundImageTwo": "/assets/images/parallax-element/background-cloud.png",
+      "layerOne": "/assets/images/parallax-element/top-left.png",
+      "layerTwo": "/assets/images/parallax-element/top-middle.png",
+      "layerThree": "/assets/images/parallax-element/top-right.png",
+      "layerFour": "/assets/images/parallax-element/bottom-left.png",
+      "layerFive": "/assets/images/parallax-element/bottom-middle.png",
+      "layerSix": "/assets/images/parallax-element/bottom-right.png"
+    },
+    "video": 
+    {
+      "source": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
+  
+  "textFlyingIn": 
+  [
+    {
+      "title": "This is a title",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in aliquet sapien, eget feugiat magna. Nunc pulvinar, nunc fermentum tempor bibendum, lectus ipsum viverra nisl, ac egestas tortor odio a urna. Sed vitae nibh sit amet lectus congue volutpat. Aliquam imperdiet volutpat metus quis pulvinar. Duis porta ante feugiat urna facilisis, eget tristique risus viverra."
+    }
+  ,     {
+      "title": "And another title",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in aliquet sapien, eget feugiat magna. Nunc pulvinar, nunc fermentum tempor bibendum, lectus ipsum viverra nisl, ac egestas tortor odio a urna. Sed vitae nibh sit amet lectus congue volutpat. Aliquam imperdiet volutpat metus quis pulvinar. Duis porta ante feugiat urna facilisis, eget tristique risus viverra."
+    }
+  ],
+
+    "iphone": 
+    {
+      "title": "De nieuwe iPhone",
+      "subTitle": "Vanaf € 1.159 zonder inruil*",
+      "image": "/assets/images/iphone.png" 
+    }
+  ,
+    "bigTitle": 
+    {
+      "titlePartOne": "Non autem voluptas ",
+      "highlight": "est veniam ipsa",
+      "titlePartTwo": " eadeleniti suscipit.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis non diam non dapibus. Morbi a enim nulla. Suspendisse aliquam ante urna, luctus fringilla magna porttitor at. Aliquam eros nunc, molestie ut hendrerit eu, consequat sit amet tortor. Phasellus gravida sapien et tellus cursus pretium. In venenatis, neque in venenatis iaculis, odio felis elementum ipsum, eu scelerisque turpis dui nec orci. Aenean tincidunt convallis neque, a condimentum augue ultricies at. Suspendisse arcu nulla, malesuada non fringilla vel, aliquam sit amet augue. Donec libero ligula, sagittis eu est eu, vestibulum mattis nunc. Cras ultricies porta mauris, id hendrerit erat convallis id. Cras fermentum lobortis massa eu porta. Quisque sollicitudin nunc eu malesuada porttitor. Donec vel ex mattis, scelerisque elit eu, porttitor ligula."
+    }
+  ,
+    "textAndImage": 
+    {
+      "imageSource": "https://picsum.photos/id/356/1505/796",
+      "title": "Non autem voluptas est veniam ipsa ea deleniti suscipit. ",
+      "textOne": "Lorem ipsum dolor sit amet. Aut optio voluptate sit enim reprehenderit Qui enim consequatur rerum quae perspiciatis aut dolor illo? Qui quam dignissimos aut doloremque aliquam ea minus vero in rerum sint ut quaerat quibusdam rem ipsa doloremque qui aperiam obcaecati. Et reiciendis iustoUt molestiae in impedit voluptatum id iste quis est enim laudantium est consequatur error.",
+      "subTitleOne": "Non odit ipsa aut eveniet enim aut quos culpa.",
+      "subTextOne": "Et nostrum autem Aut enim ad omnis esse. In voluptatum sapiente aut quam blanditiis rem nostrum fugit aut consequatur quos sit velit quia aut reprehenderit vero provident sunt. Qui perspiciatis nisi aut dolore vitae in corporis optio. Sit quidem consequatur vel nihil veritatis et excepturi vel atque provident vel similique repellat.",
+      "subTitleTwo": "Sit ducimus quia ad dolorem galisum. ",
+      "subTextTwo": "Et voluptas velit est sint corporisaut voluptas. Ea facere consequatur ab minus deseruntAt facilis aut reprehenderit soluta qui excepturi illo eaque fuga. Ex voluptatum recusandae et excepturi inventore At aliquid facere id voluptas nostrum iure harum hic molestiae harum?"
+      
+    }
+  ,
+    "clients": [
+    {
+      "id": "00",
+      "name": "Client name 0",
+      "logoSource": "/assets/logos/clients/logo-1.png"
+    },
+    {
+      "id": "01",
+      "name": "Client name 1",
+      "logoSource": "/assets/logos/clients/logo-2.png"
+    },
+    {
+      "id": "02",
+      "name": "Client name 2",
+      "logoSource": "/assets/logos/clients/logo-3.png"
+    },
+     {
+       "id": "03",
+      "name": "Client name 3",
+      "logoSource": "/assets/logos/clients/logo-4.png"
+    },
+     {
+       "id": "04",
+      "name": "Client name 4",
+      "logoSource": "/assets/logos/clients/logo-5.png"
+    },
+     {
+       "id": "05",
+      "name": "Client name 5",
+      "logoSource": "/assets/logos/clients/logo-6.png"
+    },
+     {
+       "id": "06",
+      "name": "Client name 5",
+      "logoSource": "/assets/logos/clients/logo-7.png"
+    }
+    ,
+     {
+       "id": "07",
+      "name": "Client name 5",
+      "logoSource": "/assets/logos/clients/logo-8.png"
+    }
+  ],
+    "imagesFlyingIn": 
+    {
+      "imageOne": "https://picsum.photos/id/119/1200/635",
+      "imageTwo": "https://picsum.photos/id/252/1200/635"
+    }
+}

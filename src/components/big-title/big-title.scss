@@ -1,0 +1,21 @@
+.big-title {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: white;
+    width: 100vw;
+
+    &__title {
+        font-size: 5rem;
+        line-height: 1.1;
+        text-align: right;
+    }
+    &__text {
+        margin-top: 20vh;
+        text-align: left;
+    }
+    &.highlighted {
+        .big-title__title--highlight {
+            color: pink;
+        }
+    }
+}

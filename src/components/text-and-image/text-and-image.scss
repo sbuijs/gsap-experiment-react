@@ -1,0 +1,27 @@
+.text-and-image {
+    z-index: 1;
+    height: auto;
+    overflow: hidden;
+    width: 100vw;
+
+    &__image {
+        background: linear-gradient(to right, transparent 0%, black 100%);
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #000;
+        position: absolute;
+        z-index: -1;
+        background-size: cover;
+        background-repeat: no-repeat;
+        img {
+            height: 100vh;
+            min-width: 100%;
+        }
+    }
+    &__text {
+        color: black;
+        padding-top: 60%;
+        padding-bottom: 60%;
+    }
+}

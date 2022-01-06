@@ -1,0 +1,18 @@
+.image-panels {
+    overflow: hidden;
+    &__panel {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("https://picsum.photos/id/1021/1505/796");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__title {
+        color: white;
+        align-self: center;
+        background-color: rgba(0, 0, 0, 0.521);
+        padding: 14px;
+    }
+}

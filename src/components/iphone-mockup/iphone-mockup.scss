@@ -1,0 +1,42 @@
+.iphone-mockup {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom right, #f8f8f8 0%, #e1e1e1 100%) 100% no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+
+    &__circle {
+        z-index: 0;
+        background-color: #d6d6d6;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        align-self: center;
+        position: absolute;
+    }
+    &__image {
+        width: 300px;
+        z-index: 2;
+        transform: rotate(0deg);
+        transform: scale(0.8);
+        align-self: center;
+    }
+
+    &__text {
+        z-index: 1;
+        align-self: center;
+        position: absolute;
+        opacity: 0;
+        h2 {
+            font-size: 40px;
+            color: black;
+        }
+        p {
+            font-size: 20px;
+            color: black;
+        }
+    }
+}

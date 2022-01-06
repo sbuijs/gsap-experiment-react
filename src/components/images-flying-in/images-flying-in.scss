@@ -1,0 +1,17 @@
+.images-flying-in {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: white;
+    overflow: hidden;
+    width: 100vw;
+    .row:first-of-type {
+        padding-bottom: 4rem;
+    }
+    .container-xl {
+        padding: 0 !important;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}

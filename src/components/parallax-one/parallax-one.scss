@@ -1,0 +1,55 @@
+.parallax-element {
+    height: 200vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    &__title {
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        opacity: 0;
+    }
+    .layer {
+        position: absolute;
+        background-position: bottom center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        z-index: -1;
+    }
+
+    .layer-bg {
+        background-size: cover;
+    }
+    .layer-bg-cloud {
+        background-size: cover;
+    }
+
+    @for $i from 1 through 6 {
+        .layer-#{$i} {
+            background-repeat: no-repeat;
+        }
+    }
+
+    .layer-1 {
+        background-position: left top;
+    }
+    .layer-2 {
+        background-position: center top;
+    }
+    .layer-3 {
+        background-position: right top;
+    }
+    .layer-4 {
+        background-position: left bottom;
+    }
+    .layer-5 {
+        background-position: center bottom;
+    }
+    .layer-6 {
+        background-position: right bottom;
+    }
+}

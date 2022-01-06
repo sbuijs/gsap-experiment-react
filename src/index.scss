@@ -1,0 +1,9 @@
+// Import bootstrap css
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+//Import React app scss
+@import "./src/App.scss";
+
+//Import scss files
+@import "./src/scss/base.scss";
+@import "./src/scss/variables.scss";

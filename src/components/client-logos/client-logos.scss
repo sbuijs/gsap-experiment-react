@@ -1,0 +1,21 @@
+.client-logos {
+    width: 100vw;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-size: 20px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    &__logo {
+        padding: 1rem;
+    }
+    h2 {
+        padding: 3rem;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
