@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sbuijs.github.io/react-gsap-experiment/",
-  "name": "react-animated-components",
+  "homepage": "https://sbuijs.github.io/gsap-experiment-react/",
+  "name": "gsap-experiment-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
