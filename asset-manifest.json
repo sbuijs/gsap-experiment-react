@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/gsap-experiment-react/static/css/main.d93f0998.css",
-    "main.js": "/gsap-experiment-react/static/js/main.f24a6133.js",
+    "main.css": "/gsap-experiment-react/static/css/main.605fc2cd.css",
+    "main.js": "/gsap-experiment-react/static/js/main.f37a1412.js",
     "index.html": "/gsap-experiment-react/index.html",
-    "main.d93f0998.css.map": "/gsap-experiment-react/static/css/main.d93f0998.css.map",
-    "main.f24a6133.js.map": "/gsap-experiment-react/static/js/main.f24a6133.js.map"
+    "main.605fc2cd.css.map": "/gsap-experiment-react/static/css/main.605fc2cd.css.map",
+    "main.f37a1412.js.map": "/gsap-experiment-react/static/js/main.f37a1412.js.map"
   },
   "entrypoints": [
-    "static/css/main.d93f0998.css",
-    "static/js/main.f24a6133.js"
+    "static/css/main.605fc2cd.css",
+    "static/js/main.f37a1412.js"
   ]
 }
