@@ -30,6 +30,7 @@ export const IphoneMockup = ({ iphone }) => {
         end: "center center",
         toggleActions: "restart none reverse none",
         scrub: 1,
+        // markers: true,
       }
     });
   }, []);

@@ -13,7 +13,8 @@ import { BigTitle } from "./components/big-title/big-title";
 import { ImagePanels } from './components/image-panels/image-panels';
 import { ImagesFlyingIn } from './components/images-flying-in/images-flying-in';
 import { ParallaxOne } from './components/parallax-one/parallax-one';
-import { VideoScrub } from './components/video-scrub/video-scrub';
+import { ParallaxTwo } from './components/parallax-two/parallax-two';
+// import { VideoScrub } from './components/video-scrub/video-scrub';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
   return (
     <div className="App">
       <ParallaxOne parallaxOne={data.parallaxOne} />
-      <VideoScrub video={data.video} />
+      <ParallaxTwo parallaxTwo={data.parallaxTwo} />
+      {/* <VideoScrub video={data.video} /> */}
       <IphoneMockup iphone={data.iphone} />
       <ClientLogos clients={data.clients} />
       <TextFlyingIn textFlyingIn={data.textFlyingIn} />

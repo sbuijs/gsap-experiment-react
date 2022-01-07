@@ -18,6 +18,13 @@
       "layerFive": "/assets/images/parallax-element/bottom-middle.png",
       "layerSix": "/assets/images/parallax-element/bottom-right.png"
     },
+      "parallaxTwo": 
+    {
+      "backgroundImage": "/assets/images/parallaxTwo/background.png",
+      "layerOne": "/assets/images/parallaxTwo/rock-left.png",
+      "layerTwo": "/assets/images/parallaxTwo/surfer.png",
+      "layerThree": "/assets/images/parallaxTwo/seagulls.png"
+    },
     "video": 
     {
       "source": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"

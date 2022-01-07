@@ -15,17 +15,17 @@ export const ParallaxOne = ({ parallaxOne }) => {
   const parallaxElement = useRef(null);
 
 
-
-  const tl = gsap.timeline({
-    scrollTrigger: {
-      trigger: ".parallax-element",
-      start: "top top",
-      end: "bottom top",
-      scrub: true,
-    }
-  });
-
   useEffect(() => {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".parallax-element",
+        start: "top top",
+        end: "bottom top",
+        scrub: true,
+      }
+    });
+
+
     gsap.utils.toArray(".parallax-top-left").forEach(layer => {
       const depth = layer.dataset.depth;
       const movement = -(layer.offsetWidth * depth)
@@ -35,9 +35,7 @@ export const ParallaxOne = ({ parallaxOne }) => {
         ease: "0.1",
       }, 0)
     });
-  });
 
-  useEffect(() => {
     gsap.utils.toArray(".parallax-top-right").forEach(layer => {
       const depth = layer.dataset.depth;
       const movement = -(layer.offsetWidth * depth)
@@ -47,9 +45,7 @@ export const ParallaxOne = ({ parallaxOne }) => {
         ease: "0.1",
       }, 0)
     });
-  });
 
-  useEffect(() => {
     gsap.utils.toArray(".parallax-bottom-left").forEach(layer => {
       const depth = layer.dataset.depth;
       const movement = -(layer.offsetWidth * depth)
@@ -59,9 +55,7 @@ export const ParallaxOne = ({ parallaxOne }) => {
         ease: "0.1",
       }, 0)
     });
-  });
 
-  useEffect(() => {
     gsap.utils.toArray(".parallax-bottom-right").forEach(layer => {
       const depth = layer.dataset.depth;
       const movement = -(layer.offsetWidth * depth)
@@ -71,9 +65,9 @@ export const ParallaxOne = ({ parallaxOne }) => {
         ease: "0.1",
       }, 0)
     });
-  });
 
-  useEffect(() => {
+
+
     gsap.utils.toArray(".parallax-top").forEach(layer => {
       const depth = layer.dataset.depth;
       const movement = -(layer.offsetHeight * depth)
@@ -82,9 +76,9 @@ export const ParallaxOne = ({ parallaxOne }) => {
         ease: "0.1",
       }, 0)
     });
-  });
 
-  useEffect(() => {
+
+
     gsap.utils.toArray(".parallax-bottom").forEach(layer => {
       const depth = layer.dataset.depth;
       const movement = -(layer.offsetHeight * depth)
@@ -93,16 +87,15 @@ export const ParallaxOne = ({ parallaxOne }) => {
         ease: "0.1",
       }, 0)
     });
-  });
-  useEffect(() => {
+
+
     gsap.utils.toArray(".layer-bg-cloud").forEach(layer => {
       tl.to(layer, {
         scale: 1.2,
         ease: "0.1",
       }, 0)
     });
-  });
-  useEffect(() => {
+
     gsap.to(".parallax-element__title", {
       opacity: 1,
       scrollTrigger: {

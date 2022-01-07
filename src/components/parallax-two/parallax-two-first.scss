@@ -1,0 +1,45 @@
+.parallax-element-images {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    #parallax-background {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        .image {
+            height: 110vh;
+            width: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    #parallax-image-1 {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        z-index: 2;
+        .image {
+            height: 110vh;
+            width: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    #parallax-image-2 {
+        position: absolute;
+        width: 960px;
+        top: 0;
+        left: 50%;
+        margin-left: -470px;
+        z-index: 3;
+        .image {
+            height: 110vh;
+            width: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}

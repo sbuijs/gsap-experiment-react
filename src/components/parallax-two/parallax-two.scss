@@ -1,0 +1,48 @@
+$heroHeight: 800px;
+
+.parallax-two {
+    width: 100vw;
+    .hero {
+        overflow: hidden;
+        height: $heroHeight;
+        position: relative;
+
+        .parallax-background {
+            background-position: bottom center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: $heroHeight;
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+        }
+        .parallax-img {
+            background-position: bottom center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            bottom: -20%;
+            //rock
+            &--1 {
+                background-position: center bottom;
+                position: absolute;
+                // border: 1px solid blue;
+            }
+            //surfer
+            &--2 {
+                background-position: center bottom;
+                position: absolute;
+                // border: 1px solid orange;
+            }
+            //seagulls
+            &--3 {
+                background-position: center bottom;
+                position: absolute;
+                // border: 1px solid white;
+            }
+        }
+    }
+}
