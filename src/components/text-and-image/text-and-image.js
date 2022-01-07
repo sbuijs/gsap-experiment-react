@@ -23,7 +23,7 @@ export const TextAndImage = ({ textAndImage }) => {
         end: "top bottom",
         pinSpacing: false,
         pin: true,
-        toggleActions: "play none none pause",
+        toggleActions: "play none none pause"
       },
       duration: 1.5,
     });
