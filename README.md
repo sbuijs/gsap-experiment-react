@@ -8,7 +8,6 @@
   <p align="left">
 
 A one-pager to experiment with GSAP in combination with ReactJS.<br/>
-       Goal: learning ReactJS & GSAP<br/>
        <a href="https://sbuijs.github.io/gsap-experiment-react/">View Demo</a>
   </p>
 </div>
